@@ -1,0 +1,143 @@
+.App {
+  text-align: left;
+
+}
+
+.App-logo {
+  height: 65px;
+  padding-left:10%;
+  padding-right:15%;
+}
+
+.App-header {
+  background-color: transparent;
+  height: 70px;
+  padding: 20px;
+  color: white;
+  display: flex;
+  font-size: 10px;
+  position:fixed;
+}
+
+.App-title {
+  font-size: 1.5em;
+  padding-top: 10px;
+
+}
+
+.App-intro {
+  font-size: large;
+}
+.headerLinks{
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+}
+.masthead{
+  background-image: url("catground.jpg");
+  background-size:cover;
+  background-position: center;
+  
+  background-repeat: no-repeat;
+  background-color: #FFF;
+  height: 600px;
+  width: 100vw;
+  justify-content: center;
+}
+.welcome{
+  text-align: center;
+  padding-top:200px;
+
+  padding-bottom:15px;
+  color:white;
+
+}
+.NTMU{
+  text-align: center;
+  color:white;
+  font-size:50px;
+  margin-bottom: 50px;
+}
+.App-title:hover{
+  color:gold;
+}
+.TellMMContainer{
+  background-color:gold;
+  width:200px;
+  height:50px;
+  text-align: center;
+  color:white;
+  margin: auto;
+}
+.TellMM{
+  padding:16px;
+}
+
+.ServicesContainer{
+  height:600px
+}
+
+.Services{
+  text-align: center;
+  margin-top: 100px;
+}
+.ServicesSubtitle{
+  text-align: center;
+  color:grey;
+}
+.ServicesBody{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin:20px 20%;
+}
+.ServicesContent{
+  margin:15px;
+}
+
+.ServicesIcon{
+width: 100px;
+height: 100px;
+}
+
+.ServicesBT{
+  color: grey;
+}
+
+.hamburger{
+  width:45px;
+  height: 45px;
+  padding-top: 5px;
+  display:none;
+}
+
+.hamburgerContainer{
+  background-color:gold;
+  width:50px;
+  height:50px;
+  text-align: center;
+  color:white;
+  display:none;
+  position: relative;
+  margin-right: 80px;
+  margin-left:30vw;
+  
+  
+  
+}
+
+
+
+@media (max-width: 768px){
+  .App-title {
+  display:none
+  }
+  .hamburger{
+    display: inline
+  }
+  .hamburgerContainer{
+    display:inline
+  }
+
+}
+
